@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.body{
+    background-color: rgb(41, 0, 29);
+
+}
+
+.navbar{
+    margin-top: 20px;
+}
+
+
+.wrpper{
+    display: flex;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+
+.h-bir{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+position: relative;
+top: 10px;
+}
+
+
+#becraund{
+    background-color: black;
+color: white;
+border-radius: 10px;
+padding-right: 20px;
+text-align: center;
+position: relative;
+left: 20px;
+border:  2px solid black;
+}
+
+
+h3{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+text-align: right;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+}
+
+
+
+
+.div{
+    position: relative;
+    left: 500px;
+    display: flex;
+}
+
+
+.me-goat{
+    width: 175px;
+height: 50px;
+gap: 10px;
+border-radius: 15px ;
+background: #BFAFF2;
+position: relative;
+left: 100px;
+}
+
+
+.me-goat:hover{
+    width: 175px;
+height: 50px;
+gap: 10px;
+border-radius: 15px ;
+background-color: blueviolet;
+position: relative;
+left: 100px;
+color: blue;
+}
+
+
+.ert{
+    text-align: center;
+}
+
+
+
+
+
+  .qahramonlar-container {
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 170px;
+    transition: all 5ms;
+  }
+  
+
+  
+  .qahramon img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .qahramon h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #dddddd;
+  }
+  
+  .qahramon p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #dddddd;
+  }
+
+
+.gojo{
+    background-color: rgb(41, 0, 29);
+    border-radius: 15px;
+    text-align: center;
+    width: 250px;
+    position: relative;
+    left: -19.7px;
+    top: -23.7px;
+}
+.gojo:hover{
+    background-color:rgb(134, 57, 207) ;
+    border-radius: 15px;
+    text-align: center;
+    width: 250px;
+    position: relative;
+    left: -19.7px;
+    top: -19.7px;
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8AuCgcbrVnl_bXZ5XgcC9R3RFNmWhuLq94g&s");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+}
+
+
+  .qahramon-gojo{
+    background-color: #2a2a40;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  .qahramon-gojo:hover{
+    background-color:white ;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+
+
+ .yudji-itdori{
+    background-color: rgb(41, 0, 29);
+    border-radius: 15px;
+    text-align: center;
+    width: 250px;
+    position: relative;
+    left: -19.7px;
+    top: -23.7px;
+ }
+
+ .yudji-itdori:hover{
+    opacity: 100% gray;
+    background-color:white;
+    border-radius: 15px;
+    text-align: center;
+    width: 250px;
+    position: relative;
+    left: -19.7px;
+    top: -19.7px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD-kqe84MOJ_QotYYYo0OH9t6RPD_Ba1sBeg&s");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+ }
+
+
+ .qahramon-yudji-itadori{
+    background-color: #2a2a40;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    color: white;
+ }
+
+
+
+ .qahramon-yudji-itadori:hover{
+    background-color:white ;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    color: white;
+ }
+
+
+
+
+
+ .qahramon-megumi-fushiguro{
+    background-color: #2a2a40;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    color: white;
+ }
+
+
+
+ .qahramon-megumi-fushiguro:hover{
+    background-color:white ;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    color: white;
+ }
+
+
+
+
+ .megumi-fushiguro{
+    background-color: rgb(41, 0, 29);
+    border-radius: 15px;
+    text-align: center;
+    width: 250px;
+    position: relative;
+    left: -19.7px;
+    top: -23.7px;
+ }
+
+
+ .megumi-fushiguro:hover{
+    opacity: 100% gray;
+    background-color:white;
+    border-radius: 15px;
+    text-align: center;
+    width: 250px;
+    position: relative;
+    left: -19.7px;
+    top: -19.7px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSncQJOmwJFq7Dr8BjfOZVqNCFYWqVejW-5lw&s");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    background-repeat: no-repeat;
+ }
+
+
+
+
+ .qahramon-noabara-kugisaki{
+    background-color: #2a2a40;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    color: white;
+ }
+
+
+
+ .qahramon-noabara-kugisaki:hover{
+    background-color:white ;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    color: white;
+ }
+
+
+
+
+
+
+ .noabara-kugasaki{
+    background-color: rgb(41, 0, 29);
+    border-radius: 15px;
+    text-align: center;
+    width: 250px;
+    position: relative;
+    left: -19.7px;
+    top: -23.7px;
+ }
+
+
+
+
+ .noabara-kugasaki:hover{
+    opacity: 100% gray;
+    background-color:white;
+    border-radius: 15px;
+    text-align: center;
+    width: 250px;
+    position: relative;
+    left: -19.7px;
+    top: -19.7px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNMwamT4uLvfhfDajcXJ9m7YItTYJoVqu51A&s");
+    background-size: cover;
+    height: 300px;
+    width: 250px;
+    background-repeat: no-repeat;
+ }
+
+
+
+ footer{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 270px;
+ }
+
+.magichiskya-bitva{
+    position: relative;
+    left: -400px;
+}
+
+ ul{
+    display: flex;
+    text-decoration: none;
+    gap: 50px;
+    list-style: none;
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+    left: 500px;
+}
+
+a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
